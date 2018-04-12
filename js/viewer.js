@@ -101,6 +101,7 @@ gameScene.update = function() {
     }
     let curSpriteIdx = spriteSlots[curSpriteRow][curSpriteCol];
     shipSprite = this.add.sprite(320,200,'SHIP.V00-' + curSpriteIdx).setFlipX(curSpriteCol > 6 || flipY).setFlipY(flipY);
+    shipSprite.setScale(uiScale);
 }
 
 gameScene.pullUp = function() {
@@ -125,11 +126,11 @@ gameScene.checkFlip = function() {
     let flipChanged = false;
     if (curSpriteRow == 5) {
         flipY = !flipY;
-        curSpriteRow = 3;
+        curSpriteRow = 4; //we'd really need to set image #61 here. with the right angle
         flipChanged = true;
     } else if (curSpriteRow == -1) {
         flipY = !flipY;
-        curSpriteRow = 1;
+        curSpriteRow = 0; //we'd really need to set image #0 here. with the right angle
         flipChanged = true;
     }
     if (flipChanged) {
