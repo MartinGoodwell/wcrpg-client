@@ -1,0 +1,317 @@
+{
+    "VgaFile": {
+      "_xmlns": "http://www.wctoolbox.com/2017/WC2",
+      "_xmlns:WC1": "http://www.wctoolbox.com/2017/WC1",
+      "ImageBlock": [
+        {
+          "ImageBlock_Chunks": {
+            "HotRectangleGroup": {
+              "StructureChunk": {
+                "StructureChunk.Items": {
+                  "HotRectangleItem": [
+                    {
+                      "_Bounds": "64,64 106,130",
+                      "_Identifier": "4"
+                    },
+                    {
+                      "_Bounds": "0,99 39,124",
+                      "_Identifier": "3"
+                    },
+                    {
+                      "_Bounds": "245,69 316,136",
+                      "_Identifier": "2"
+                    },
+                    {
+                      "_Bounds": "131,74 181,128",
+                      "_Identifier": "1"
+                    },
+                    {
+                      "_Bounds": "0,0 319,199",
+                      "_Identifier": "0"
+                    }
+                  ]
+                }
+              }
+            },
+            "HotTextGroup": {
+              "SymbolChunk": {
+                "SymbolChunk.Items": {
+                  "SymbolItem": [
+                    { "_Text": "Fly mission" },
+                    { "_Text": "View storyline" },
+                    { "_Text": "Save/Load game" },
+                    { "_Text": "Exit to DOS" }
+                  ]
+                }
+              }
+            }
+          },
+          "ImageBlock_Items": {
+            "WC1_ImageItem": [
+              {
+                "_Origin": "0,199",
+                "_file": "OPTIONS.V00-ImageBlock000-ImageItem000.gif"
+              },
+              {
+                "_Origin": "0,54",
+                "_file": "OPTIONS.V00-ImageBlock000-ImageItem001.gif"
+              },
+              {
+                "_Origin": "0,67",
+                "_file": "OPTIONS.V00-ImageBlock000-ImageItem002.gif"
+              },
+              {
+                "_Origin": "0,16",
+                "_file": "OPTIONS.V00-ImageBlock000-ImageItem003.gif"
+              }
+            ]
+          }
+        },
+        {
+          "ImageBlock_Chunks": {
+            "HotRectangleGroup": {
+              "StructureChunk": {
+                "StructureChunk.Items": {
+                  "HotRectangleItem": [
+                    {
+                      "_Bounds": "240,19 253,32",
+                      "_Identifier": "1"
+                    },
+                    {
+                      "_Bounds": "0,0 319,199",
+                      "_Identifier": "0"
+                    }
+                  ]
+                }
+              }
+            },
+            "HotTextGroup": {
+              "SymbolChunk": {
+                "SymbolChunk.Items": {
+                  "SymbolItem": { "_Text": "Switch off computer" }
+                }
+              }
+            }
+          },
+          "ImageBlock_Items": {
+            "WC1_ImageItem": [
+              {
+                "_Origin": "0,199",
+                "_file": "OPTIONS.V00-ImageBlock001-ImageItem000.gif"
+              },
+              {
+                "_Origin": "0,115",
+                "_file": "OPTIONS.V00-ImageBlock001-ImageItem001.gif"
+              }
+            ]
+          }
+        },
+        {
+          "ImageBlock_Chunks": {
+            "HotRectangleGroup": {
+              "StructureChunk": {
+                "StructureChunk.Items": {
+                  "HotRectangleItem": [
+                    {
+                      "_Bounds": "64,64 106,130",
+                      "_Identifier": "4"
+                    },
+                    {
+                      "_Bounds": "0,99 39,124",
+                      "_Identifier": "3"
+                    },
+                    {
+                      "_Bounds": "245,69 316,136",
+                      "_Identifier": "2"
+                    },
+                    {
+                      "_Bounds": "131,74 181,128",
+                      "_Identifier": "1"
+                    },
+                    {
+                      "_Bounds": "0,0 319,199",
+                      "_Identifier": "0"
+                    }
+                  ]
+                }
+              }
+            },
+            "HotTextGroup": {
+              "SymbolChunk": {
+                "SymbolChunk.Items": {
+                  "SymbolItem": [
+                    { "_Text": "Fly mission" },
+                    { "_Text": "View storyline" },
+                    { "_Text": "Save/Load game" },
+                    { "_Text": "Exit to DOS" }
+                  ]
+                }
+              }
+            }
+          },
+          "ImageBlock_Items": {
+            "WC1_ImageItem": [
+              {
+                "_Origin": "0,199",
+                "_file": "OPTIONS.V00-ImageBlock003-ImageItem000.gif"
+              },
+              {
+                "_Origin": "0,54",
+                "_file": "OPTIONS.V00-ImageBlock003-ImageItem001.gif"
+              },
+              {
+                "_Origin": "0,67",
+                "_file": "OPTIONS.V00-ImageBlock003-ImageItem002.gif"
+              },
+              {
+                "_Origin": "0,16",
+                "_file": "OPTIONS.V00-ImageBlock003-ImageItem003.gif"
+              }
+            ]
+          }
+        },
+        {
+          "ImageBlock_Chunks": {
+            "HotRectangleGroup": {
+              "StructureChunk": {
+                "StructureChunk.Items": {
+                  "HotRectangleItem": [
+                    {
+                      "_Bounds": "240,19 253,32",
+                      "_Identifier": "1"
+                    },
+                    {
+                      "_Bounds": "0,0 319,199",
+                      "_Identifier": "0"
+                    }
+                  ]
+                }
+              }
+            },
+            "HotTextGroup": {
+              "SymbolChunk": {
+                "SymbolChunk.Items": {
+                  "SymbolItem": { "_Text": "Switch off computer" }
+                }
+              }
+            }
+          },
+          "ImageBlock_Items": {
+            "WC1_ImageItem": [
+              {
+                "_Origin": "0,199",
+                "_file": "OPTIONS.V00-ImageBlock004-ImageItem000.gif"
+              },
+              {
+                "_Origin": "0,115",
+                "_file": "OPTIONS.V00-ImageBlock004-ImageItem001.gif"
+              }
+            ]
+          }
+        },
+        {
+          "ImageBlock_Chunks": {
+            "HotRectangleGroup": {
+              "StructureChunk": {
+                "StructureChunk.Items": {
+                  "HotRectangleItem": [
+                    {
+                      "_Bounds": "110,61 164,140",
+                      "_Identifier": "4"
+                    },
+                    {
+                      "_Bounds": "86,81 104,105",
+                      "_Identifier": "3"
+                    },
+                    {
+                      "_Bounds": "235,73 285,150",
+                      "_Identifier": "2"
+                    },
+                    {
+                      "_Bounds": "0,60 74,139",
+                      "_Identifier": "1"
+                    },
+                    {
+                      "_Bounds": "0,0 319,199",
+                      "_Identifier": "0"
+                    }
+                  ]
+                }
+              }
+            },
+            "HotTextGroup": {
+              "SymbolChunk": {
+                "SymbolChunk.Items": {
+                  "SymbolItem": [
+                    { "_Text": "Fly mission" },
+                    { "_Text": "View storyline" },
+                    { "_Text": "Save/Load game" },
+                    { "_Text": "Exit to DOS" }
+                  ]
+                }
+              }
+            }
+          },
+          "ImageBlock_Items": {
+            "WC1_ImageItem": [
+              {
+                "_Origin": "0,199",
+                "_file": "OPTIONS.V00-ImageBlock006-ImageItem000.gif"
+              },
+              {
+                "_Origin": "0,79",
+                "_file": "OPTIONS.V00-ImageBlock006-ImageItem001.gif"
+              },
+              {
+                "_Origin": "0,77",
+                "_file": "OPTIONS.V00-ImageBlock006-ImageItem002.gif"
+              },
+              {
+                "_Origin": "0,16",
+                "_file": "OPTIONS.V00-ImageBlock006-ImageItem003.gif"
+              }
+            ]
+          }
+        },
+        {
+          "ImageBlock_Chunks": {
+            "HotRectangleGroup": {
+              "StructureChunk": {
+                "StructureChunk.Items": {
+                  "HotRectangleItem": [
+                    {
+                      "_Bounds": "240,19 253,32",
+                      "_Identifier": "1"
+                    },
+                    {
+                      "_Bounds": "0,0 319,199",
+                      "_Identifier": "0"
+                    }
+                  ]
+                }
+              }
+            },
+            "HotTextGroup": {
+              "SymbolChunk": {
+                "SymbolChunk.Items": {
+                  "SymbolItem": { "_Text": "Switch off computer" }
+                }
+              }
+            }
+          },
+          "ImageBlock_Items": {
+            "WC1_ImageItem": [
+              {
+                "_Origin": "0,199",
+                "_file": "OPTIONS.V00-ImageBlock007-ImageItem000.gif"
+              },
+              {
+                "_Origin": "0,115",
+                "_file": "OPTIONS.V00-ImageBlock007-ImageItem001.gif"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }

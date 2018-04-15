@@ -100,7 +100,7 @@ gameScene.update = function() {
       shipSprite.destroy();
     }
     let curSpriteIdx = spriteSlots[curSpriteRow][curSpriteCol];
-    shipSprite = this.add.sprite(320,200,'SHIP.V00-' + curSpriteIdx).setFlipX(curSpriteCol > 6 || flipY).setFlipY(flipY);
+    shipSprite = this.add.sprite(320,200,'SHIP.V00-' + curSpriteIdx).setFlipX(curSpriteCol > 6/* || flipY*/).setFlipY(flipY);
     shipSprite.setScale(uiScale);
 }
 
