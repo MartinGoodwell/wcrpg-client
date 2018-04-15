@@ -6,15 +6,11 @@ var textArray;
 var visibleSprites = [];
 
 gameScene.preload = function() {
-    //game.load.json('options', '/assets/resources/options.v00.json');
-    //console.log(optionsResponse);
-
-    //let optionsJSON = game.cache.getJSON('options');
-    //let optionsJSON = JSON.parse(optionsResponse);
+//    this.game.scale.scaleMode = Phaser.ScaleManager.USER_SCALE;
     
-    this.loadHotspots(0);
-    this.loadTexts(0);
-    this.loadImages(0);
+    this.loadHotspots(4);
+    this.loadTexts(4);
+    this.loadImages(4);
 }
 
 gameScene.loadHotspots = function(blockNumber) {
@@ -40,22 +36,6 @@ gameScene.loadImages = function(blockNumber) {
 }
 
 gameScene.create = function() {
-  /*
-    this.input.on('pointerover', function (event, gameObjects) {
-        console.log('pointerover: ' + gameObjects.name + ", " + event);
-        gameObjects[0].visible = true;
-    });
-
-    this.input.on('pointerout', function (event, gameObjects) {
-        console.log('pointerout: ' + gameObjects.name + ", " + event);
-        gameObjects[0].visible = false;
-    });
-
-    this.input.on('pointerdown', function (pointer, gameObjects) {
-        console.log("clicked");
-    });
-*/
-
     this.addImg(imageArray[0]._file, 0, true);
     for (let i=1;i<4;++i) {
         this.addImg(imageArray[i]._file, i, false);
@@ -100,10 +80,24 @@ gameScene.addImg = function(filename, index, showImage) {
           visibleSprites.push(image);
         });
         zone.on('pointerdown', function (event, gameObjects) {
-          console.log("clicked zone " + filename);
+          //gameScene.handleZoneClick(index);
       });
     }
     image.visible = showImage;
+}
+
+gameScene.handleZoneClick = function(index) {
+  switch (index) {
+    case 1:
+      console.log("go to briefing")
+      break;
+    case 2:
+      console.log("cinema");
+      break;
+    case 3:
+      console.log("loadsave")
+      break;
+  }
 }
 
 gameScene.update = function() {
@@ -429,8 +423,9 @@ options = {
 
   let config = {
     type: Phaser.AUTO,  //Phaser will decide how to render our game (WebGL or Canvas)
-    width: 640, // game width
-    height: 400, // game height
+    width: 320, // game width
+    height: 200, // game height
     scene: gameScene // our newly created scene
   };
   var game = new Phaser.Game(config);
+  
